@@ -1,0 +1,114 @@
+/* -------------------------------480------------------------------- */
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+  }
+  .customers-list {
+    display: flex;
+    gap: 72px 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+/* -------------------------------768------------------------------- */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+  .features-list {
+    gap: 72px 24px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .features-subtitle {
+    text-align: start;
+  }
+  .team > .container {
+    max-width: 582px;
+  }
+  .team {
+    padding-bottom: 104px;
+  }
+  .team-list {
+    gap: 64px 24px;
+  }
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .customers > .container {
+    max-width: 582px;
+  }
+  .customers-list {
+    gap: 24px;
+    row-gap: 72px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+}
+/* -------------------------------1200------------------------------- */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .thumb {
+    background-color: var(--footer-logo-color);
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+  .features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 8px;
+  }
+  .doing {
+    display: block;
+    padding-bottom: 120px;
+  }
+  .doing-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .doing-list {
+    display: flex;
+    gap: 24px;
+  }
+  .doing-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .team > .container {
+    max-width: 1158px;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .customers > .container {
+    max-width: 1158px;
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+}
