@@ -1,19 +1,43 @@
+/* -------------------------------*****------------------------------- 
+header
++hero
++features
++doing
++team
++customers
+footer
+backdrop
+mobile menu
+-------------------------------*****------------------------------- */
 /* -------------------------------480------------------------------- */
 @media screen and (min-width: 480px) {
   .container {
     max-width: 426px;
   }
-  .customers-list {
-    display: flex;
-    gap: 72px 16px;
-    flex-wrap: wrap;
-    justify-content: center;
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .hero-title {
+    font-size: 36px;
+    max-width: 320px;
+    margin-bottom: 72px;
   }
 }
 /* -------------------------------768------------------------------- */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
+  }
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 40px;
   }
   .features-list {
     gap: 72px 24px;
@@ -52,6 +76,14 @@
   .container {
     max-width: 1158px;
   }
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
   .features-item {
     flex-basis: calc((100% - 72px) / 4);
   }

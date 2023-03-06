@@ -155,27 +155,26 @@ img {
 
 /*----------------------------Hero----------------------------*/
 .hero {
-  max-width: 1440px;
   background-color: var(--main-text-color);
   background-image: linear-gradient(var(--l-gradient)),
     url(../images/herobg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
 }
 .hero-title {
-  font-size: 56px;
+  font-size: 28px;
   text-align: center;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--main-backgraund-color);
-  max-width: 496px;
+  max-width: 260px;
   margin: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 .hero-button {
   margin: 0 auto;
@@ -340,13 +339,11 @@ img {
 }
 .customers-list {
   display: flex;
-  gap: 16px;
+  gap: 72px 16px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .customers-item {
-  width: 100%;
-  /* width: calc((100% - 16px) / 2); */
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 .customers-link {
