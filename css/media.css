@@ -5,8 +5,8 @@ header
 +doing
 +team
 +customers
-footer
-backdrop
++footer
++backdrop
 mobile menu
 -------------------------------*****------------------------------- */
 /* -------------------------------480------------------------------- */
@@ -25,6 +25,18 @@ mobile menu
   }
   .subscribe-mail {
     width: 398px;
+  }
+  .modal {
+    width: 392px;
+  }
+  .modal-title {
+    font-size: 16px;
+  }
+  .input-text {
+    font-size: 12px;
+  }
+  .check-text {
+    font-size: 12px;
   }
 }
 /* -------------------------------768------------------------------- */
@@ -92,11 +104,13 @@ mobile menu
   .subscribe-mail {
     width: 264px;
   }
-
   .subscr-button {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 24px;
+  }
+  .modal {
+    width: 408px;
   }
 }
 /* -------------------------------1200------------------------------- */
