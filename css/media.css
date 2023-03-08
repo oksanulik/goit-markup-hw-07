@@ -7,7 +7,8 @@ header
 +customers
 +footer
 +backdrop
-mobile menu
+mobile menu зверстати
++зображення 2х
 -------------------------------*****------------------------------- */
 /* -------------------------------480------------------------------- */
 @media screen and (min-width: 480px) {
@@ -47,6 +48,16 @@ mobile menu
   .hero {
     padding-top: 112px;
     padding-bottom: 108px;
+    background-image: linear-gradient(var(--l-gradient)),
+      url(../images/herobg-tab1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(var(--l-gradient)),
+        url(../images/herobg-tab2x.jpg);
+    }
   }
   .hero-title {
     font-size: 56px;
@@ -121,6 +132,16 @@ mobile menu
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(var(--l-gradient)),
+      url(../images/herobg1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(var(--l-gradient)),
+        url(../images/herobg2x.jpg);
+    }
   }
   .hero-title {
     margin-bottom: 48px;

@@ -157,7 +157,7 @@ img {
 .hero {
   background-color: var(--main-text-color);
   background-image: linear-gradient(var(--l-gradient)),
-    url(../images/herobg.jpg);
+    url(../images/herobg-mob1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -165,6 +165,14 @@ img {
   padding-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--l-gradient)),
+      url(../images/herobg-mob2x.jpg);
+  }
 }
 .hero-title {
   font-size: 28px;
