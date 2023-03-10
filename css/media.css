@@ -1,19 +1,11 @@
-/* -------------------------------*****------------------------------- 
-header
-+hero
-+features
-+doing
-+team
-+customers
-+footer
-+backdrop
-mobile menu зверстати
-+зображення 2х
--------------------------------*****------------------------------- */
 /* -------------------------------480------------------------------- */
 @media screen and (min-width: 480px) {
   .container {
     max-width: 426px;
+  }
+  .mob-tel-item {
+    font-size: 36px;
+    line-height: 1.11;
   }
   .hero {
     padding-top: 112px;
@@ -44,6 +36,73 @@ mobile menu зверстати
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
+  }
+  .header-container {
+    padding-bottom: 12px;
+  }
+  .header-logo {
+    margin-right: 120px;
+  }
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  .header-list .link {
+    padding-top: 31px;
+    padding-bottom: 25px;
+  }
+  .header-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-link.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-active-color);
+    border-radius: 2px;
+  }
+  .header-link:hover,
+  .header-link:focus,
+  .header-link.current {
+    color: var(--accent-active-color);
+  }
+  .adress {
+    margin-left: auto;
+  }
+  .adress-list {
+    display: block;
+  }
+  .adress-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .adress-link:hover,
+  .adress-link:focus {
+    color: var(--accent-active-color);
+  }
+  .menu-open {
+    display: none;
   }
   .hero {
     padding-top: 112px;
@@ -126,8 +185,33 @@ mobile menu зверстати
 }
 /* -------------------------------1200------------------------------- */
 @media screen and (min-width: 1200px) {
+  body {
+    padding-top: 76px;
+  }
   .container {
     max-width: 1158px;
+  }
+  .header {
+    height: 76px;
+  }
+  .header-container {
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  .header-logo {
+    line-height: 1.33;
+    margin-right: 76px;
+  }
+  .adress-list {
+    display: flex;
+    gap: 40px;
+  }
+  .header-list .link {
+    padding-bottom: 31px;
+  }
+  .adress-link {
+    font-size: 16px;
+    line-height: var(--typical-lh);
   }
   .hero {
     padding-top: 188px;
