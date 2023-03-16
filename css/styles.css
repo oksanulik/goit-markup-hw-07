@@ -151,8 +151,6 @@ img {
   background-color: var(--accent-active-color);
   fill: var(--main-backgraund-color);
 }
-.mob-menu-list {
-}
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -171,8 +169,6 @@ img {
 }
 .mob-menu-adress-list {
   margin-bottom: 48px;
-}
-.mob-adress-item {
 }
 .mob-tel-item {
   margin-bottom: 40px;
@@ -305,9 +301,6 @@ img {
 .thumb {
   display: none;
 }
-.features-icon {
-}
-
 .features-subtitle {
   font-size: 36px;
   line-height: 1.11;
@@ -615,8 +608,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-}
-.works-item {
 }
 .works-button {
   font-family: inherit;
